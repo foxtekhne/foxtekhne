@@ -341,5 +341,27 @@
         font-size: 1.11em;
         color: #f77f00;
     }
+  footer p{
+        margin-top: 10px;
+    }
+
+.rodape{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:5px;
+    
+}
+
+.rodape h3{
+    margin-top:12px;
+    padding:8px;
+   
+}
+
+.rodape p {
+    text-align:center;
+    margin-right:5px;
+    margin-top: 20px;
+}
 
 
