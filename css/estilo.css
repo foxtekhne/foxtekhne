@@ -365,3 +365,138 @@
 }
 
 
+/*SOBRE NÓS*/
+
+#texto1-sobrenos1{
+    color: #f77f00;
+    font-size: 3em;
+    width: 30%;
+}
+
+#imagem-sobrenos1{
+    color: #f77f00;
+    width: 11%;
+    margin-top: 4%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.sobrenos1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.sobrenos1 > div {
+    flex: 1  100px;
+    margin: 10px;
+    justify-content: space-around;
+    text-align: : center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.flex > div {
+    flex: 1 1 300px;
+    margin: 10px;
+    justify-content: space-around;
+    text-align: : center;
+}
+
+#historia-sobrenos{
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+
+#sobrenos-sobrenos{
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+
+#nome-sobrenos{
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+
+#logo-sobrenos{
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+
+#colaboradores-sobrenos{
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+
+
+.flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.flex2 > div {
+    flex: 1 1 150px;
+    margin: 10px;
+    justify-content: space-between;
+    text-align: : center;
+}
+
+#gabriela-sobrenos{
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 1.4em;
+}
+
+#fernanda-sobrenos{
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 1.4em;
+}
+
+#heloisa-sobrenos{
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 1.4em;
+}
+
+#thayane-sobrenos{
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 1.4em;
+}
+
