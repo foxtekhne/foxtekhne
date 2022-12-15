@@ -511,3 +511,157 @@ img {
 #foto-fernanda, #foto-thayane, #foto-heloisa, #foto-gabriela{
     border-radius: 48%;
 }
+
+/*Seviços*/
+
+/*Conteudo*/
+    .web {
+        margin-top: 5%;
+        align-items:center;
+        justify-content: center;
+        height: 100%;
+        width:100%;
+        
+    }
+
+    .web img{
+        width:350px;
+    }
+    .web h2, .web h3{
+        text-align:center;
+    }
+
+    .web h2{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        font-size:30px;
+        color: rgb(38, 155, 201);
+    }
+    .web h3{
+        margin-top:20px;
+    }
+
+    /*Título Dúvidas*/
+         .icones-servicos-1 img{
+            width:2%;
+            align-items:center;
+         }
+         .icones-servicos-1 {
+             margin-top: 60px;
+             margin-left: 250px;
+             padding:20px;
+         }
+         .icones-servicos-1 h1 {
+             
+            font-size:20px;
+            color: rgb(38, 155, 201);
+       }
+
+    /*Grids principais*/
+    .grid-servicos, .grid-servicos-2{
+
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+        max-width: 50%;
+        min-width: 400px;
+        grid-gap:25px;
+        align-items:center;
+        margin:25px;
+        margin-top: 40px;
+        
+        
+    }
+
+      
+    /*titulo serviços*/
+        .titulo-servicos h1{
+            color:#FF4500;
+            font-size:40px;
+            
+        }
+        .titulo-servicos{
+            margin-left: 800px;
+            padding:20px;
+            
+        }
+
+        .titulo-servicos img{
+            width:60px;
+        }
+     
+    
+    /*Grids- conteúdos*/
+        .grid-s1, .grid-s2, .grid-s3, .grid-s4, .grid-s5 {
+            width: 300px;
+            height:470px;
+            background-color:orange;
+            text-align:center;
+            border-radius:15px;
+            color: #000000;
+            margin-left: 15px;
+            box-shadow: 8px 8px 3px rgb(60, 60, 60);
+            animation-name:servicos;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+        
+        }
+        .grid-s1 p , .grid-s1 h3, .grid-s2 p, .grid-s2 h3, .grid-s3 p, .grid-s3 h3, .grid-s4 p, .grid-s4 h3, .grid-s5 p,.grid-s5 h3 {
+            animation-name:servicos-texto;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+        }
+        
+        .grid-s6, .grid-s7, .grid-s8, .grid-s9{
+            width: 300px;
+            height: 400px;
+            background-color:rgb(253, 251, 247);
+            text-align:center;
+
+        }
+        
+   
+    /*Estilizações-específicas - Grid*/
+        .grid-servicos img{
+            margin-top: 20px;
+            border-radius:10px;
+            width:250px;
+            }
+
+            .grid-servicos-2 img{
+            margin-top: 20px;
+            border-radius:10px;
+            width:100px;
+            }
+
+        .grid-servicos p, .grid-servicos h3{
+            margin: 10px;
+        }
+
+        .grid-s2 img, .grid-s4 img, .grid-s5 img{
+            width: 250px;
+            height:167px;
+        }
+
+        .grid-s1{
+            margin-left: 55px;
+        }
+        .grid-s6{
+            margin-left: 255px;
+        }
+      
+    /*Animações*/
+        @keyframes servicos{
+            from{
+                background-color: orange;
+            }
+            to{
+                background-color:#FF4500;
+            }
+        }
+        @keyframes servicos-texto{
+            from{
+                color: #000000;
+            }
+            to{
+                color:white;
+            }
+        }
