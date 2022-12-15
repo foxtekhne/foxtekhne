@@ -423,19 +423,7 @@
     margin-top: 20px;
 }
 
-/*Sobre nós*/
-
-#texto1-sobrenos1{
-    color: #f77f00;
-    font-size: 3em;
-    width: 30%;
-}
-
-#imagem-sobrenos1{
-    color: #f77f00;
-    width: 11%;
-    margin-top: 4%;
-}
+/*SOBRE NÓS*/
 
 .container {
     display: flex;
@@ -444,7 +432,7 @@
 
 
 
-.flex img, .flex2 img {
+img {
     max-width: 100%;
     display: block;
 }
@@ -468,9 +456,17 @@
     display: inline-block;
 }
 
-.imagem-sobrenos1 {
+#texto1-sobrenos1{
+    color: #f77f00;
+    font-size: 3em;
+    width: 30%;
+    display: inline-block;
+}
+
+#imagem-sobrenos {
     width: 500px;
     height: 500px;
+    display: inline-block;
     float: left;
 }
 
@@ -486,7 +482,7 @@
     flex: 1 1 300px;
     margin: 10px;
     justify-content: space-around;
-    text-align: center;
+    text-align: : center;
 }
 
 #historia-sobrenos{
@@ -537,31 +533,10 @@
     flex: 1 1 150px;
     margin: 10px;
     justify-content: space-between;
-    text-align: center;
+    text-align: : center;
 }
 
-#gabriela-sobrenos{
-    font-family: sans-serif;
-    text-align: center;
-    color: black;
-    font-size: 1.4em;
-}
-
-#fernanda-sobrenos{
-    font-family: sans-serif;
-    text-align: center;
-    color: black;
-    font-size: 1.4em;
-}
-
-#heloisa-sobrenos{
-    font-family: sans-serif;
-    text-align: center;
-    color: black;
-    font-size: 1.4em;
-}
-
-#thayane-sobrenos{
+#thayane-sobrenos, #heloisa-sobrenos, #fernanda-sobrenos, #gabriela-sobrenos{
     font-family: sans-serif;
     text-align: center;
     color: black;
@@ -570,9 +545,25 @@
 
 #foto-fernanda, #foto-thayane, #foto-heloisa, #foto-gabriela{
     border-radius: 48%;
-    height: 20%;
-    width: 100%;
+}
+
+.titulo-sobrenos h1{
+    color:#FF4500;
+    font-size: 1.7em;
+    margin-right: 60%;
+    margin-top: 2%;
+    margin-left: 0px;
+}
+        
+.titulo-sobrenos{
+    padding:20px;
+    text-align: center;
     align-items: center;
+            
+}
+
+.titulo-sobrenos img{
+    width:20%;
 }
 
 /*Seviços*/
