@@ -432,7 +432,7 @@
 
 
 
-img {
+.flex img, .flex2 img{
     max-width: 100%;
     display: block;
 }
@@ -467,7 +467,6 @@ img {
     width: 500px;
     height: 500px;
     display: inline-block;
-    float: left;
 }
 
 .flex {
@@ -482,7 +481,7 @@ img {
     flex: 1 1 300px;
     margin: 10px;
     justify-content: space-around;
-    text-align: : center;
+    text-align: center;
 }
 
 #historia-sobrenos{
@@ -533,7 +532,7 @@ img {
     flex: 1 1 150px;
     margin: 10px;
     justify-content: space-between;
-    text-align: : center;
+    text-align: center;
 }
 
 #thayane-sobrenos, #heloisa-sobrenos, #fernanda-sobrenos, #gabriela-sobrenos{
@@ -557,13 +556,29 @@ img {
         
 .titulo-sobrenos{
     padding:20px;
-    text-align: center;
+    text-align: right;
     align-items: center;
             
 }
 
 .titulo-sobrenos img{
     width:20%;
+}
+
+.titulo-sobrenos-1{
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    color: #FF4500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo-sobrenos-1 div{
+    width: 100%;
+    margin: 0;
+    align-items: center;
 }
 
 /*Seviços*/
