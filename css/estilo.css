@@ -771,14 +771,14 @@
 
         /*AJAX*/
         .child p{
-            margin-top: 15px;
+            margin-top: 12px;
         }
-        .child, #panel, #flip, #panel1, #flip1, #panel2, #flip2{
+        .child, #panel, #flip, #panel1, #flip1, #panel2, #flip2, #panel3, #flip3,#panel4, #flip4, #panel5, #flip5{
             animation-name:atendimento;
             animation-duration: 6s;
             animation-iteration-count: infinite;
         }
-        #panel, #flip, #panel1, #flip1, #panel2, #flip2 {
+        #panel, #flip, #panel1, #flip1, #panel2, #flip2,#panel3, #flip3,#panel4, #flip4, #panel5, #flip5 {
             margin-top:40px;
             align-items: center;
             padding: 5px;
@@ -788,7 +788,13 @@
                       
           }
           
-          #panel, #panel1, #panel2 {
+         h5{
+            margin-top:10px;
+            font-size:15px ;
+            
+         }
+          
+          #panel, #panel1, #panel2, #panel3, #panel4, #panel5 {
             
             padding: 50px;
             display: none;
@@ -796,7 +802,7 @@
             border: solid 1px #c3c3c3;
           }
           
-          #flip, #flip1, #flip2{
+          #flip, #flip1, #flip2,#flip3,#flip4, #flip5{
             font-size: 20px;
           }
           
@@ -809,4 +815,8 @@
             to{
                 background-color:#056cc5;
             }
+        }
+        
+        .atendimento-config{
+            margin-top:600px;
         }
