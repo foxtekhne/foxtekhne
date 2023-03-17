@@ -7,11 +7,77 @@
     <link rel="stylesheet" href="css/estilo.css">
     <title>Fox Techkne</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $("#hide").click(function(){
+    $("#panel").hide();
+      });
+    });
+
+    $(document).ready(function(){
+    $("#hide1").click(function(){
+    $("#panel1").hide();
+      });
+    });
+
+     
+    $(document).ready(function(){
+    $("#hide2").click(function(){
+    $("#panel2").hide();
+      });
+    });
+
+    
+    $(document).ready(function(){
+    $("#hide3").click(function(){
+    $("#panel3").hide();
+      });
+    });
+
+      $(document).ready(function(){
+    $("#hide4").click(function(){
+    $("#panel4").hide();
+      });
+        });
+    $(document).ready(function(){
+    $("#hide5").click(function(){
+    $("#panel5").hide();
+      });
+    });
+
+   
+</script>
     
     <script> 
     $(document).ready(function(){
-      $("#flip,#flip1,#flip2").click(function(){
-        $("#panel,#panel1, #panel2").slideDown("slow");
+      $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+      });
+    });
+    $(document).ready(function(){
+      $("#flip1").click(function(){
+        $("#panel1").slideDown("slow");
+      });
+    });
+    $(document).ready(function(){
+      $("#flip2").click(function(){
+        $("#panel2").slideDown("slow");
+      });
+    });
+    $(document).ready(function(){
+      $("#flip3").click(function(){
+        $("#panel3").slideDown("slow");
+      });
+    });
+    $(document).ready(function(){
+      $("#flip4").click(function(){
+        $("#panel4").slideDown("slow");
+      });
+    });
+    $(document).ready(function(){
+      $("#flip5").click(function(){
+        $("#panel5").slideDown("slow");
       });
     });
 
@@ -41,49 +107,53 @@
         </div>
     </header>
 
+        
     <section class="atendimento-itens">
-            
+       
         <div class="flex-atendimento">
-            <div class="child">
+            <div class="child" class="n1" >
+                
                 <p>Atendimento</p>
-                <div id="flip">Clique aqui para saber mais</div>
-                <div id="panel" id="subir">Por meio de uma conversa, reuniremos os principais problemas que sua empresa enfrenta,quixas e ideias que possam surgir.</div>
+                <div id="flip" >Clique aqui para saber mais</div>
+                <div id="panel">Por meio de uma conversa, reuniremos os principais problemas que sua empresa enfrenta,queixas e ideias que possam surgir.<h5 id="hide">Diminuir</h5></div>
+           
+                
                 
             </div>
             <div class="child">
                 <p>Visita técnica</p>
-                <div id="flip1">clique aqui para saber mais</div>
-                <div id="panel1">Realizaremos uma visita técnica na empresa para analisar a rotina e os processos que ocorrem diariamente,além de identificar os possíveis probelmas e soluções para a empresa. </div>
+                <div id="flip1">Clique aqui para saber mais</div>
+                <div id="panel1">Realizaremos uma visita técnica na empresa para analisar a rotina e os processos que ocorrem diariamente,além de identificar os possíveis probelmas e soluções para a empresa.<h5 id="hide1">Diminuir</h5> </div>
             </div>
             <div class="child">
                 <p>Análise</p>
                 <div id="flip2">Clique aqui para saber mais</div>
-                <div id="panel2">Faremos uma análise em equipe de possíveis tópicos a serem desenvolvidos,  e organizaremos um orçamento personalizado para a sua empresa, que conterá os serviços que trarão melhorias e aumentarão as vendas da empresa.  </div>
+                <div id="panel2">Faremos uma análise em equipe de possíveis tópicos a serem desenvolvidos,  e organizaremos um orçamento personalizado para a sua empresa, que conterá os serviços que trarão melhorias e aumentarão as vendas da empresa.<h5 id="hide2">Diminuir</h5>  </div>
             </div>
            
             <div class="child">
                 <p>Organização</p>
-                <div id="flip">Clique aqui para saber mais</div>
-                <div id="panel">Organizaremos um cronograma de desenvolvimento junatmente ao representante de sua empresa para atender suas necessidades dentro do prazo estabelecido. As etapas serão realizadas de forma cronológica e oferecerão ao seu negócio um sistema completo.</div>
+                <div id="flip3">Clique aqui para saber mais</div>
+                <div id="panel3">Organizaremos um cronograma de desenvolvimento junatmente ao representante de sua empresa para atender suas necessidades dentro do prazo estabelecido. As etapas serão realizadas de forma cronológica e oferecerão ao seu negócio um sistema completo.<h5 id="hide3">Diminuir</h5></div>
             </div>
             
             <div class="child">
                 <p>Reuniões</p>
-                <div id="flip">Clique aqui para saber mais</div>
-                <div id="panel">Serão feitas com ointuito de repassar o que está sendo feito ao cliente e discutir possíveis alterações durante o processo de desenvolvimento.</div>
+                <div id="flip4">Clique aqui para saber mais</div>
+                <div id="panel4">Serão feitas com ointuito de repassar o que está sendo feito ao cliente e discutir possíveis alterações durante o processo de desenvolvimento.<h5 id="hide4">Diminuir</h5></div>
             </div>
             
             <div class="child">
                 <p>Aprovação</p>
-                <div id="flip">Clique aqui para saber mais</div>
-                <div id="panel">Após estar finalizado,o sistema passará por uma aprovação do cliente, que avaliará as ações durante o desenvolvimento.  </div>
+                <div id="flip5">Clique aqui para saber mais</div>
+                <div id="panel5">Após estar finalizado,o sistema passará por uma aprovação do cliente, que avaliará as ações durante o desenvolvimento.<h5 id="hide5">Diminuir</h5>  </div>
             </div>
             
           </div>
 
     </section>  
         
-  <!-- <footer >
+  <footer class="atendimento-config">
          <div class="rodape">
             <div class="grid1">   
                 <h3>PÁGINAS</h3>
@@ -116,6 +186,6 @@
 
         <p> &copy; Fox Techkne  -  2022</p>
 
-    </footer>!-->
+    </footer>
 </body>
 </html>
